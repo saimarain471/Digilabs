@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CartCloudy - Premium Digital Subscriptions Store
+
+A modern e-commerce platform for digital subscriptions built with Next.js 15, TypeScript, Tailwind CSS, and Supabase.
+
+![CartCloudy](https://img.shields.io/badge/CartCloudy-Premium%20Digital%20Subscriptions-6366f1)
+
+## Features
+
+- **Modern UI/UX**: Deepest dark mode design with glassmorphism effects
+- **Multi-Currency Support**: USD, PKR, INR with auto-detection based on location
+- **WhatsApp Checkout**: Direct order via WhatsApp with pre-filled message
+- **Responsive Design**: Mobile-first approach with touch-friendly interfaces
+- **Product Catalog**: 29+ digital products across 6 categories
+- **Plan Selection**: Multiple subscription plans with pricing tiers
+- **Cart Management**: Persistent cart with Zustand state management
+- **Search & Filter**: Real-time product search and category filtering
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Database**: Supabase (PostgreSQL)
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/saimarain471/Digilabs.git
+cd Digilabs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server:
+```bash
+pnpm dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Home page
+│   ├── shop/              # Shop page
+│   └── product/[slug]/    # Product detail page
+├── components/            # React components
+│   ├── Header.tsx         # Navigation header
+│   ├── Hero.tsx           # Hero section
+│   ├── ProductCard.tsx    # Product card component
+│   └── Cart.tsx           # Cart sidebar
+├── context/               # Context providers
+│   └── CartContext.tsx    # Cart & Currency context
+├── data/                  # Static data
+│   └── seedData.ts        # Product seed data
+├── lib/                   # Utilities
+│   └── supabase.ts        # Supabase client
+└── types/                 # TypeScript types
+    └── index.ts           # Type definitions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+supabase/
+├── schema.sql             # Database schema
+├── seed.sql               # Seed data SQL
+└── seed-data.json         # Seed data JSON
+```
 
-## Deploy on Vercel
+## Database Setup (Supabase)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Create a new Supabase project
+2. Run the schema SQL in `supabase/schema.sql`
+3. Run the seed SQL in `supabase/seed.sql`
+4. Update `.env.local` with your Supabase credentials
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## WhatsApp Configuration
+
+The WhatsApp checkout is configured in `src/types/index.ts`:
+
+```typescript
+export const WHATSAPP_CONFIG = {
+  phone: "+9303704731692",
+  baseUrl: "https://wa.me/",
+};
+```
+
+## Categories
+
+- 🎨 **Creativity**: Canva Pro, CapCut Pro, Adobe Creative Cloud
+- 🤖 **AI**: ChatGPT Plus, Claude AI, Gemini Advanced, Grok
+- 🛠️ **Tools**: Semrush, Ahrefs, Grammarly, MS Office 365
+- 📺 **Streaming**: Netflix Premium
+- 🔒 **VPN**: Surfshark VPN
+- 👥 **Social**: LinkedIn Premium, VidIQ, WA Sender
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push to GitHub
+2. Import project in Vercel
+3. Add environment variables
+4. Deploy
+
+### Manual Build
+
+```bash
+pnpm build
+pnpm start
+```
+
+## License
+
+MIT License - feel free to use this project for your own purposes.
+
+## Support
+
+For support, contact via WhatsApp: +9303704731692

@@ -1,0 +1,393 @@
+{
+  "categories": [
+    { "name": "Creativity", "slug": "creativity", "icon": "🎨", "description": "Design and creative tools" },
+    { "name": "AI", "slug": "ai", "icon": "🤖", "description": "Artificial Intelligence tools" },
+    { "name": "Tools", "slug": "tools", "icon": "🛠️", "description": "Productivity and utility tools" },
+    { "name": "Streaming", "slug": "streaming", "icon": "📺", "description": "Video and music streaming services" },
+    { "name": "VPN", "slug": "vpn", "icon": "🔒", "description": "Security and privacy tools" },
+    { "name": "Social", "slug": "social", "icon": "📱", "description": "Social media and marketing tools" }
+  ],
+  "products": [
+    {
+      "title": "Canva Pro",
+      "slug": "canva-pro",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+      "short_description": "Professional design tool with premium templates and features",
+      "category": "Creativity",
+      "is_featured": true,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 5, "price_pkr": 1400, "price_inr": 420, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 12, "price_pkr": 3400, "price_inr": 1000, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 40, "price_pkr": 11000, "price_inr": 3300, "is_popular": false }
+      ]
+    },
+    {
+      "title": "CapCut Pro",
+      "slug": "capcut-pro",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/3670/3670147.png",
+      "short_description": "Professional video editing with advanced features",
+      "category": "Creativity",
+      "is_featured": true,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 4, "price_pkr": 1100, "price_inr": 330, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 10, "price_pkr": 2800, "price_inr": 840, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 35, "price_pkr": 9700, "price_inr": 2900, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Adobe Creative Cloud",
+      "slug": "adobe-creative-cloud",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968428.png",
+      "short_description": "Complete suite of creative applications",
+      "category": "Creativity",
+      "is_featured": true,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 15, "price_pkr": 4200, "price_inr": 1250, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 40, "price_pkr": 11000, "price_inr": 3300, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 140, "price_pkr": 39000, "price_inr": 11700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "ChatGPT Plus",
+      "slug": "chatgpt-plus",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/11865/11865326.png",
+      "short_description": "Advanced AI assistant with GPT-4 access",
+      "category": "AI",
+      "is_featured": true,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Netflix",
+      "slug": "netflix",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+      "short_description": "Unlimited movies and TV shows",
+      "category": "Streaming",
+      "is_featured": true,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 6, "price_pkr": 1700, "price_inr": 500, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 16, "price_pkr": 4400, "price_inr": 1330, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 55, "price_pkr": 15000, "price_inr": 4600, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Claude AI",
+      "slug": "claude-ai",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/8637/8637099.png",
+      "short_description": "Advanced AI assistant by Anthropic",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Gemini Advanced",
+      "slug": "gemini-advanced",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/2702/2702602.png",
+      "short_description": "Google's most capable AI model",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Grok",
+      "slug": "grok",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5969/5969020.png",
+      "short_description": "X's AI assistant with real-time information",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 6, "price_pkr": 1700, "price_inr": 500, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 16, "price_pkr": 4400, "price_inr": 1330, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 55, "price_pkr": 15000, "price_inr": 4600, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Perplexity AI",
+      "slug": "perplexity-ai",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+      "short_description": "AI-powered research and search engine",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "ElevenLabs",
+      "slug": "elevenlabs",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+      "short_description": "AI voice generation and cloning",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 10, "price_pkr": 2800, "price_inr": 840, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 27, "price_pkr": 7500, "price_inr": 2250, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 95, "price_pkr": 26000, "price_inr": 7900, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Veo 3",
+      "slug": "veo-3",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/1179/1179069.png",
+      "short_description": "Google's advanced AI video generation",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 15, "price_pkr": 4200, "price_inr": 1250, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 40, "price_pkr": 11000, "price_inr": 3300, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 140, "price_pkr": 39000, "price_inr": 11700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "RunwayML",
+      "slug": "runwayml",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+      "short_description": "AI-powered creative video tools",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 12, "price_pkr": 3300, "price_inr": 1000, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 32, "price_pkr": 8900, "price_inr": 2670, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 115, "price_pkr": 32000, "price_inr": 9600, "is_popular": false }
+      ]
+    },
+    {
+      "title": "HeyGen AI",
+      "slug": "heygen-ai",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/4712/4712035.png",
+      "short_description": "AI avatar video generation",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 15, "price_pkr": 4200, "price_inr": 1250, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 40, "price_pkr": 11000, "price_inr": 3300, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 140, "price_pkr": 39000, "price_inr": 11700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Envato Elements",
+      "slug": "envato-elements",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968756.png",
+      "short_description": "Unlimited creative assets downloads",
+      "category": "Creativity",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Freepik Premium",
+      "slug": "freepik-premium",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968853.png",
+      "short_description": "Premium vectors, photos, and PSD files",
+      "category": "Creativity",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 5, "price_pkr": 1400, "price_inr": 420, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 13, "price_pkr": 3600, "price_inr": 1080, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 45, "price_pkr": 12500, "price_inr": 3750, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Lovable Pro",
+      "slug": "lovable-pro",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/1055/1055666.png",
+      "short_description": "AI-powered app development",
+      "category": "AI",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 20, "price_pkr": 5500, "price_inr": 1670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 55, "price_pkr": 15000, "price_inr": 4600, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 200, "price_pkr": 55000, "price_inr": 16700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Semrush",
+      "slug": "semrush",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/2504/2504739.png",
+      "short_description": "Complete SEO and marketing toolkit",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 25, "price_pkr": 6900, "price_inr": 2080, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 70, "price_pkr": 19000, "price_inr": 5830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 250, "price_pkr": 69000, "price_inr": 20800, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Ahrefs",
+      "slug": "ahrefs",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/2504/2504768.png",
+      "short_description": "SEO tools and backlink analysis",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 25, "price_pkr": 6900, "price_inr": 2080, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 70, "price_pkr": 19000, "price_inr": 5830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 250, "price_pkr": 69000, "price_inr": 20800, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Google Drive Storage",
+      "slug": "google-drive-storage",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968523.png",
+      "short_description": "Cloud storage for all your files",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 3, "price_pkr": 830, "price_inr": 250, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 30, "price_pkr": 8300, "price_inr": 2500, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Grammarly Premium",
+      "slug": "grammarly-premium",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968494.png",
+      "short_description": "Advanced writing assistant",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Quillbot",
+      "slug": "quillbot",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/3131/3131622.png",
+      "short_description": "AI paraphrasing and writing tool",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 5, "price_pkr": 1400, "price_inr": 420, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 13, "price_pkr": 3600, "price_inr": 1080, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 45, "price_pkr": 12500, "price_inr": 3750, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Surfshark VPN",
+      "slug": "surfshark-vpn",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/6295/6295417.png",
+      "short_description": "Fast and secure VPN service",
+      "category": "VPN",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 4, "price_pkr": 1100, "price_inr": 330, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 10, "price_pkr": 2800, "price_inr": 840, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 35, "price_pkr": 9700, "price_inr": 2900, "is_popular": false }
+      ]
+    },
+    {
+      "title": "TradingView",
+      "slug": "tradingview",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/2504/2504768.png",
+      "short_description": "Advanced charting and trading platform",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 15, "price_pkr": 4200, "price_inr": 1250, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 40, "price_pkr": 11000, "price_inr": 3300, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 140, "price_pkr": 39000, "price_inr": 11700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "VidIQ",
+      "slug": "vidiq",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+      "short_description": "YouTube growth and analytics tool",
+      "category": "Social",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 6, "price_pkr": 1700, "price_inr": 500, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 16, "price_pkr": 4400, "price_inr": 1330, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 55, "price_pkr": 15000, "price_inr": 4600, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Coursera Plus",
+      "slug": "coursera-plus",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/5968/5968523.png",
+      "short_description": "Unlimited access to online courses",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 15, "price_pkr": 4200, "price_inr": 1250, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 40, "price_pkr": 11000, "price_inr": 3300, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 140, "price_pkr": 39000, "price_inr": 11700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "MS Office 365",
+      "slug": "ms-office-365",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+      "short_description": "Complete Microsoft Office suite",
+      "category": "Tools",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 5, "price_pkr": 1400, "price_inr": 420, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 13, "price_pkr": 3600, "price_inr": 1080, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 45, "price_pkr": 12500, "price_inr": 3750, "is_popular": false }
+      ]
+    },
+    {
+      "title": "LinkedIn Premium",
+      "slug": "linkedin-premium",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/3536/3536505.png",
+      "short_description": "Professional networking features",
+      "category": "Social",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 10, "price_pkr": 2800, "price_inr": 840, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 27, "price_pkr": 7500, "price_inr": 2250, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 95, "price_pkr": 26000, "price_inr": 7900, "is_popular": false }
+      ]
+    },
+    {
+      "title": "Wa Sender",
+      "slug": "wa-sender",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+      "short_description": "WhatsApp bulk messaging tool",
+      "category": "Social",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 8, "price_pkr": 2200, "price_inr": 670, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 22, "price_pkr": 6100, "price_inr": 1830, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 80, "price_pkr": 22000, "price_inr": 6700, "is_popular": false }
+      ]
+    },
+    {
+      "title": "WhatsApp Virtual Numbers",
+      "slug": "whatsapp-virtual-numbers",
+      "thumbnail_url": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+      "short_description": "Virtual phone numbers for WhatsApp",
+      "category": "Social",
+      "is_featured": false,
+      "plans": [
+        { "name": "1 Month", "duration_months": 1, "price_usd": 5, "price_pkr": 1400, "price_inr": 420, "is_popular": false },
+        { "name": "3 Months", "duration_months": 3, "price_usd": 13, "price_pkr": 3600, "price_inr": 1080, "is_popular": true },
+        { "name": "1 Year", "duration_months": 12, "price_usd": 45, "price_pkr": 12500, "price_inr": 3750, "is_popular": false }
+      ]
+    }
+  ],
+  "whatsapp_config": {
+    "phone": "+9303704731692",
+    "message_format": "Hello CartCloudy! I want to buy:\n--------------------------\n{items}\n--------------------------\nTotal: {total} {currency}\nMy Email: {email}"
+  }
+}

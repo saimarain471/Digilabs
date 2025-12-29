@@ -2,7 +2,7 @@
 
 import React from "react";
 import { CartProvider } from "@/context/CartContext";
-import { Header, Cart, FloatingCartButton } from "@/components";
+import { Header, Cart, FloatingCartButton, Footer } from "@/components";
 
 interface ProvidersProps {
   children: React.ReactNode;
@@ -15,6 +15,7 @@ export const Providers: React.FC<ProvidersProps> = ({ children }) => {
       <main className="pt-16 md:pt-20">{children}</main>
       <Cart />
       <FloatingCartButton />
+      <Footer />
     </CartProvider>
   );
 };

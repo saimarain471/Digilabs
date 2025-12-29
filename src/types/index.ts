@@ -139,6 +139,6 @@ export const CURRENCIES: CurrencyInfo[] = [
 // WhatsApp Config
 // ============================================
 export const WHATSAPP_CONFIG = {
-  phone: "+9303704731692",
+  phone: "+9203704731692",
   baseUrl: "https://wa.me/",
 };
